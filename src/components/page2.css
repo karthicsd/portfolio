@@ -1,0 +1,123 @@
+.page2-main{
+    min-height:100vh;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+    /*border-bottom: 1px solid white;*/
+
+
+
+}
+
+.page2-main-dash{
+    height:5rem;
+    width: 100%;
+    /*background-color: purple;*/
+    color: white;
+    animation: dash 7s linear infinite;
+    display: flex;
+    gap: 1rem;
+}
+
+.page2-main-dash-red{
+    height: 100%;
+    width: 10px;
+    background-color: red;
+}.page2-main-dash-yellow{
+    height: 100%;
+    width: 10px;
+    background-color: yellow;
+}.page2-main-dash-green{
+    height: 100%;
+    width: 10px;
+    background-color: green;
+}.page2-main-dash-blue{
+    height: 100%;
+    width: 10px;
+    background-color: blue;
+}
+.page2-main-dash-white{
+    height: 100%;
+    width: 10px;
+    background-color: white;
+}
+
+
+@keyframes dash {
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+.page2-main-inner{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 3rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}
+
+.page2-main-inner-about{
+
+    /*padding: 2rem;*/
+    border-radius: 1rem ;
+    display: flex;
+    padding: 0 2rem 0 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background-color: rgb(18, 17, 17);
+    /*width: 50%;*/
+    font-size: 1.3rem;
+    text-align: justify;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color:white;
+
+}
+.page2-main-inner-about h2{
+    color: rgb(229,9,20);
+}
+.page2-main-inner-image{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem 0 1rem;
+    /*background-color: green;*/
+    /*width: 48%;*/
+}
+
+
+@media (max-width: 402px) {
+    .page2-inner-about-image{
+
+        padding: 1rem;
+
+    }
+}
+
+@media (max-width: 383px) {
+    .page2-inner-about-image{
+
+        padding: 1rem;
+
+    }
+}
+@media (max-width: 696px) {
+    .page2-inner-about-image{
+        width: 300px;
+    }
+    .page2-main-inner-about{
+        font-size: 1rem;
+    }
+}
+

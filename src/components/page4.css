@@ -1,0 +1,78 @@
+.page4-main{
+    min-height:100vh;
+    width: 100%;
+    background-color: black;
+    /*overflow: hidden;*/
+    overflow-x: hidden;
+    padding-bottom: 3rem;
+    /*background-color: green;*/
+}
+
+.page4-main-inner{
+    min-height:100vh;
+    padding-top: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.page4-main-dash{
+    height:5rem;
+    width: 100%;
+    /*background-color: purple;*/
+    color: white;
+    animation: page4-dash 7s linear infinite;
+    display: flex;
+    gap: 1rem;
+}
+
+@keyframes page4-dash {
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(100%);
+    }
+}
+
+.page4-main-dash-red{
+    height: 100%;
+    width: 10px;
+    background-color: red;
+}.page4-main-dash-yellow{
+     height: 100%;
+     width: 10px;
+     background-color: yellow;
+ }.page4-main-dash-green{
+      height: 100%;
+      width: 10px;
+      background-color: green;
+  }.page4-main-dash-blue{
+       height: 100%;
+       width: 10px;
+       background-color: blue;
+   }
+.page4-main-dash-white{
+    height: 100%;
+    width: 10px;
+    background-color: white;
+}
+
+.page4-main-inner h2{
+    margin-top:0;
+    font-size: 2rem;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: rgb(229,9,20);
+}
+.page4-main-inner-cards{
+    /*min-height: 100vh;*/
+    /*background-color: red;*/
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}

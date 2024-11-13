@@ -1,0 +1,83 @@
+.page3-main{
+    min-height:100vh;
+    width: 100%;
+    background-color: black ;
+    padding-top: 14vh;
+    box-shadow: 0 5px 500px rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+
+    /*gap: -10rem;*/
+}
+.page3-main-inner{
+    min-height: 86vh;
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: start;
+    padding: 5rem;
+    /*border: 1px solid red;*/
+
+    /* Add a shadow that only appears at the bottom */
+}
+model-viewer{
+    width: 150px;
+    height: 150px;
+
+    /*background-color: #f0f0f0;*/
+}
+
+.page3-main h2{
+    /*position: relative;*/
+    margin-top:3rem;
+    font-size: 2rem;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: rgb(229,9,20);
+}
+
+@media (max-width: 643px) {
+    /*model-viewer{*/
+    /*    width: 100px;*/
+    /*    height: 100px;*/
+
+    /*    !*background-color: #f0f0f0;*!*/
+    /*}*/
+    .page3-main-inner{
+        gap: 3rem;
+    }
+    model-viewer{
+        width: 120px;
+        height: 120px;
+
+        /*background-color: #f0f0f0;*/
+    }
+}
+
+@media (max-width: 448px) {
+    model-viewer{
+        width: 100px;
+        height:100px;
+
+        /*background-color: #f0f0f0;*/
+    }
+    /*.page3-main-inner{*/
+    /*    gap: rem;*/
+    /*}*/
+}@media (max-width: 408px) {
+    model-viewer{
+        width: 80px;
+        height:80px;
+
+        /*background-color: #f0f0f0;*/
+    }
+
+    /*.page3-main-inner{*/
+    /*    gap: rem;*/
+    /*}*/
+}
+

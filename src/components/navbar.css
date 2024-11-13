@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Faculty+Glyphic&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.navbar-header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    min-height: 5rem;
+    bottom: 50rem;
+    background-color: black;
+    /*opacity: 0.8;*/
+
+}
+
+.navbar-header-inner{
+    /*background-color: darkcyan;*/
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(182, 183, 189);
+}
+
+.navbar-header-inner ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap:2.5rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+button{
+    border: none;
+    padding: 1rem 3rem 1rem 3rem;
+    background-color: rgb(229,9,20);
+    color:white ;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size:15px;
+
+}
+
+a{
+    text-decoration: none;
+    text-blink: none;
+    color: inherit;
+}
+
+@media (max-width: 854px){
+    button{
+        font-size:10px;
+        padding: 1rem 2rem 1rem 2rem;
+    }
+    .navbar-header-inner{
+        font-size: 0.8rem;
+    }
+}
+
+
+@media (max-width: 696px) {
+    li{
+        display: none;
+
+    }
+    .navbar-header-inner-logo{
+        width: 10%;
+    }
+    button{
+        font-size:14px;
+        padding: 1rem 2rem 1rem 2rem;
+    }
+}

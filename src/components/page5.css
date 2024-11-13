@@ -1,0 +1,132 @@
+.page5-main{
+    min-height:100vh;
+    width: 100%;
+    background-color: black;
+    /*border-top:1px solid white;*/
+    /*box-shadow: 0 100px 50px rgb(255, 254, 254);*/
+    box-shadow: 0px 20px 30px rgba(251, 251, 251, 0.84);
+}
+.page5-main-inner{
+
+    width: 100%;
+    min-height:100vh;
+    display: flex;
+    padding-top: 14vh;
+    flex-wrap: wrap;
+    gap: 5rem;
+    align-items:start;
+    justify-content: center;
+
+}
+.page5-main-inner-card{
+    /*background-color: orange;*/
+    height: 400px;
+    width: 400px;
+    /*background-color: red;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow:hidden;
+
+}
+
+.page5-main-inner-cardscroll{
+    /*height: 100%;*/
+
+    width:100%;
+    animation: upgng 15s linear infinite;
+}
+.page5-main-inner-cardscroll2{
+
+    animation: dwngng 15s linear infinite;
+
+}
+
+@keyframes upgng{
+    from{
+        transform: translateY(0%);
+    }
+    to{
+        transform: translateY(-73%);
+    }
+}
+@keyframes dwngng{
+    from{
+        transform: translateY(-70%);
+    }
+    to{
+        transform: translateY(0%);
+    }
+}
+.page5-main-inner-cards{
+
+    width: 400px;
+}
+
+.page5-main-inner-p1{
+    /*background-color: orange;*/
+    color: white;
+}
+
+.page5-main-inner-p1{
+    display:flex;
+    flex-direction:column;
+    width: 400px;
+}
+.page5-main-inner-p1-h3{
+    font-size: 1.4rem;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.page5-main-inner-p1-p{
+    text-align: justify;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1rem;
+    /*text-wrap: wrap ;*/
+}
+
+@media (max-width: 402px){
+    .page5-main-inner-card{
+        width: 350px;
+    }
+    .page5-main-inner-p1{
+        width: 350px;
+    }
+}
+@media (max-width: 367px){
+    .page5-main-inner-card{
+        margin-left: 1.5rem  ;
+        width: 300px;
+    }
+
+    .page5-main-inner-p1-p{
+        /*font-size: 0.7rem;*/
+        margin-left: 1.5rem  ;
+        width: 300px;
+    }
+}
+
+
+@media (max-width: 347px){
+    .page5-main-inner-card{
+        /*position: relative;*/
+        margin-right: 1.5rem;
+        width: 270px;
+    }
+
+    .page5-main-inner-p1-h3{
+        width: 260px;
+        margin-left: 1.5rem  ;
+    }
+    .page5-main-inner-p1-p{
+
+        width: 260px;
+    }
+    .page5-main-inner-p1{
+        width: 300px;
+    }
+}
