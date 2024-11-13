@@ -25,7 +25,7 @@ function page5(){
                     </div>
                 </div>
                     <div className="page5-main-inner-p1">
-                    <h3 className="page5-main-inner-p1-h3">Internship in STUST University - Taiwan</h3>
+                    <h3 className="page5-main-inner-p1-h3">Internship in STUST University Taiwan</h3>
                     <p className="page5-main-inner-p1-p">Machine learning intern at Southern Taiwan University of Science and Technology, Taiwan. Engaged in hands-on learning and contributed to innovative projects in machine learning. Developed and implemented a spam detection project using text mining, significantly enhancing word detection and classification of spam messages</p>
                     </div>
                 </div>
