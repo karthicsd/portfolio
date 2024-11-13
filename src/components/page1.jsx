@@ -14,7 +14,7 @@ function page1(){
 
                     <h1><span className="page1-intro-inner-hi" >Hi👋</span><br/>I'm <span
                         className="page1-intro-inner-name"> Karthick  Shanmugam</span></h1>
-                    <p>I&#39;m a Software developer and Full-stack developer from India. I love programming that used to solve critical problems and enjoy basic 3D modeling .
+                    <p>I&#39;m a <span className="highlight">Software developer </span>and <span className="highlight">Full-stack developer </span>from India. I love programming that used to solve critical problems and enjoy basic 3D modeling .
                     </p>
                     <button className="page1-intro-inner-button"><a href="https://drive.google.com/file/d/1OJoPxmtc7EBvSHuNFtvAeiSjZld4ERVG/view?usp=drive_link">Resume</a></button>
 
