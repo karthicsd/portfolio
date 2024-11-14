@@ -44,18 +44,18 @@
 
 @keyframes upgng{
     from{
-        transform: translateY(0%);
+        transform: translateY(90%);
     }
     to{
-        transform: translateY(-73%);
+        transform: translateY(-45%);
     }
 }
 @keyframes dwngng{
     from{
-        transform: translateY(-70%);
+        transform: translateY(-90%);
     }
     to{
-        transform: translateY(0%);
+        transform: translateY(45%);
     }
 }
 .page5-main-inner-cards{
@@ -89,11 +89,15 @@
     /*text-wrap: wrap ;*/
 }
 
+
 @media (max-width: 402px){
     .page5-main-inner-card{
         width: 350px;
     }
     .page5-main-inner-p1{
+        width: 350px;
+    }
+    .page5-main-inner-cards{
         width: 350px;
     }
 }
@@ -115,6 +119,9 @@
     .page5-main-inner-card{
         /*position: relative;*/
         margin-right: 1.5rem;
+        width: 270px;
+    }
+    .page5-main-inner-cards{
         width: 270px;
     }
 
